@@ -1,0 +1,13 @@
+[package]
+name = "tweet"
+version = "1.0.0"
+authors = ["zhimoe<me@zhi.moe>"]
+edition = "2021"
+
+[dependencies]
+http = "0.1"
+vercel_lambda = "*"
+
+[lib]
+name = "util"
+path = "_util.rs"
